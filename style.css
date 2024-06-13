@@ -4,10 +4,11 @@
     }
 
 body {
-    /* width: 100%;
-    height: 100%; */
+    height: 100%;
+    width: 100%;
     font-family: arial, helvetica, sans-serif;
-font-size: 12px;
+    font-size: 12px;
+    margin: 15px;
     }
 
 .header {
@@ -49,6 +50,14 @@ font-size: 12px;
         box-shadow:0 3px 10px 0 #0c0202;
         text-shadow:0px 0px 5px #2076af;
         }
+
+        .footer {
+            display: flex;
+            padding: 50px;
+            list-style: none;
+            float: left;
+            
+            }
 
         /* .menu li  ul{
             position:absolute;
