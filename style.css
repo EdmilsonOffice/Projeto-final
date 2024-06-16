@@ -13,22 +13,28 @@ body {
     }
 
 .header {
-    border: 10px solid #272961;
+    border: 25px solid #272961;
     }
 
     nav {
+      height: 150px;
         width: 100%;
-        z-index: 3;
         background-color: #e8e8e3;
         
         
       }
+
+      .logo {
+        margin-left: 55px;
+        width: 550px;
+      }
       
       .nav {
-        padding: 5rem 5;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+
       }
 
       .menu {
@@ -37,80 +43,124 @@ body {
       }
       
     li {
-        margin-left: 8rem;
-        font-size: 0.8rem;
+        margin-left: 9rem;
+        font-size: 3rem;
         font-weight: 700;
       }
       
       a {
         color: #272961;
-        border-radius: 0.3rem;
-        transition: all 0.3s ease-in-out;
+        border-radius: 1.3rem;
+        transition:all ;
         text-decoration: none;
         color: inherit;
       }
       
       a:hover {
-        padding: 0.7rem 1.5rem;
+        padding: 0.7rem 5rem;
         color: #272961;
         background-color: #fff;
+        cursor: pointer;
       }
 
-      .img {
-        width: 100%;
-      }
 
       .img-Marketing {
         width: 100%;
       }
+      
       .camp1 {
-        background-image: url(/assets/Ranger.webp);
+        background-image: url('../assets/Ranger-crop1.jpg');
         background-size: cover; 
          background-repeat: no-repeat;
+         background-position: center;
+         padding: 12rem 5.5rem; 
+         overflow: hidden;
+         height: 50vh;
+         
+         
+        }
+        .camp1 h1{
         
-        width: 100%vh;
-        padding: 12rem 5.5rem;
-        margin-bottom: 10rem; 
-        flex-direction: column;
-        /* border-radius: 0.8rem; */
-        overflow: hidden;
-       
-      }
-      .h1-intro {
         text-decoration: none;
         color: #fff;
-        font-size: 50px;
-        line-height: 4rem;
-        margin-bottom: 3rem;
-        margin-left: -50px;
-        margin-top: -90px;
-       
+        font-size: 150px;
+        letter-spacing: 3px;
+        margin-left: 50px;
+        margin-top: 20rem;
         
       }
-      .h2-intro {
-       padding: 10px;
+      .camp1 h2 {
         text-decoration: none;
         color: #fff;
-        font-size: 20px;
+        font-size: 60px;
         font-weight: lighter;
         font-style: normal;
-        line-height: 1.5em;
-       /* max-width: 70ch;  */
-        /* font-size: 4rem; */
-        line-height: 1.5rem;
-        margin-bottom: 3rem;
-        margin-left: -50px;
-        margin-top: 6.3rem;
+        margin-top: 4rem ;
+        margin-left: 50px;
       }
+
+      .container2 {
+        display: flex;
+        
+        
+      }
+      .video {
+        width: 60vw;
+        height: 800px;
+      }
+      .container2 h3 {
+        display: flex;
+        float: right;
+        align-items: center;
+        justify-content: center;
+      height: 800px;
+      width: 100%;
+      font-size: 75px;
+      color: #fff;
+      background-color: rgba(39, 41, 97, 1);
+      backdrop-filter: blur(100px);
+      text-align: center;
       
+    }
+    .container2 ::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
     
+    .container2 img{
+      float: left;
+     width: 856px;
+           
+    
+    }
 
         .footer {
-            display: flex;
-            padding: 50px;
-            list-style: none;
-            float: left;
-            
-            }
+          border: 15px solid black;
+          
+          
+        }
+        nav {
+          width: 100%;
+          height: 150px;
+           }
 
-        
+             li {
+              margin-left: 9rem;
+              font-size: 3rem;
+              font-weight: 700;
+            }
+           a {
+          color: #272961;
+          border-radius: 1.3rem;
+          text-decoration: none;
+          color: inherit;
+          }
+
+           a:hover {
+            padding: 0.7rem 5rem;
+            color: #272961;
+            background-color: #fff;
+            cursor: pointer;
+          }
+    
