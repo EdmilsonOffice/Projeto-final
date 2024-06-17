@@ -7,57 +7,54 @@ body {
     height: 100%;
     width: 100%;
     font-family: arial, helvetica, sans-serif;
-    font-size: 12px;
     background-color: #e8e8e3;
+    
    
     }
 
 .header {
-    border: 25px solid #272961;
+    border: 10px solid #272961;
     }
-
-    nav {
-      height: 150px;
-        width: 100%;
+    
+    .logo {
+      margin-left: 15px;
+      width: 100px;
+    }
+   
+    
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+        width: 100px;
         background-color: #e8e8e3;
-        
-        
-      }
-
-      .logo {
-        margin-left: 55px;
-        width: 550px;
-      }
       
-      .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
 
       }
 
       .menu {
         display: flex;
         list-style: none;
+        
       }
       
-    li {
-        margin-left: 9rem;
-        font-size: 3rem;
-        font-weight: 700;
+    .seletor {
+        margin-left: 13rem;
+        font-size: 1rem;
+        font-weight: 15px;
       }
       
-      a {
+      .campo-clic {
         color: #272961;
-        border-radius: 1.3rem;
+        border-radius: 5px;
         transition:all ;
         text-decoration: none;
         color: inherit;
       }
       
       a:hover {
-        padding: 0.7rem 5rem;
+        padding: 0.1rem 1rem;
         color: #272961;
         background-color: #fff;
         cursor: pointer;
@@ -73,7 +70,7 @@ body {
         background-size: cover; 
          background-repeat: no-repeat;
          background-position: center;
-         padding: 12rem 5.5rem; 
+         padding: 5rem 3rem; 
          overflow: hidden;
          height: 50vh;
          
@@ -83,82 +80,115 @@ body {
         
         text-decoration: none;
         color: #fff;
-        font-size: 150px;
-        letter-spacing: 3px;
-        margin-left: 50px;
-        margin-top: 20rem;
+        font-size: 50px;
+        letter-spacing: 1px;
+        margin-left: 0;
+        margin-top: 1rem;
         
       }
       .camp1 h2 {
         text-decoration: none;
         color: #fff;
-        font-size: 60px;
+        font-size: 25px;
         font-weight: lighter;
         font-style: normal;
         margin-top: 4rem ;
-        margin-left: 50px;
+        margin-left: 3px;
       }
 
-      .container2 {
+      #container {
         display: flex;
+        background-color:  rgba(39, 41, 97, 1);
         
         
       }
-      .video {
-        width: 60vw;
-        height: 800px;
+      video {
+        margin: auto;
+        max-width: 50%;
+        max-height: 50%;
+        
+        
       }
-      .container2 h3 {
+
+      h3 {
         display: flex;
         float: right;
-        align-items: center;
+        align-items: start;
         justify-content: center;
-      height: 800px;
-      width: 100%;
-      font-size: 75px;
+        max-width: 50%;
+        max-height: 50%;
+      font-size: 23px;
+      line-height: 35px;
       color: #fff;
-      background-color: rgba(39, 41, 97, 1);
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 20px;
       backdrop-filter: blur(100px);
       text-align: center;
       
     }
-    .container2 ::after{
+    
+    button{ 
+      display: inline-block;
+      flex-wrap: wrap;
+     
+     }
+
+    
+
+    #container ::after{
       content: "";
       display: block;
       clear: both;
     }
     
-    .container2 img{
-      float: left;
-     width: 856px;
-           
-    
+    .container3 {
+      margin-top: 8px;
     }
 
-        .footer {
-          border: 15px solid black;
-          
+      footer {
+        
+          background-color: #272961;
+          height: 250px;
           
         }
-        nav {
-          width: 100%;
-          height: 150px;
+        .selecao {
+          padding: 15px;
+          text-align: start;
            }
 
-             li {
-              margin-left: 9rem;
-              font-size: 3rem;
-              font-weight: 700;
+             .click {
+              color: #fff;
+              font-size: 0.9rem;
+              list-style: none;
+              letter-spacing: 2px;
+              font-weight: lighter;
+              font-style: normal;
             }
-           a {
-          color: #272961;
-          border-radius: 1.3rem;
-          text-decoration: none;
-          color: inherit;
+
+            .f-h3 {
+              
+            }
+
+            .menu-footer {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              
+            }
+           .a-footer {
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            text-decoration: none;
+            color: inherit;
+            font-weight: lighter;
+            font-style: normal;
+            
           }
 
-           a:hover {
-            padding: 0.7rem 5rem;
+           .a:hover {
+            padding: 0.1rem 1rem;
             color: #272961;
             background-color: #fff;
             cursor: pointer;

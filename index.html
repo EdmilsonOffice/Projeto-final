@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/script.js">
+    <!-- <link rel="stylesheet" href="/script.js"> -->
     <title>Projeto assinatura de veiculos FORD para PF</title>
 </head>
 <body>
@@ -14,10 +14,10 @@
             <nav id="nav"class="nav">
                 <img class="logo" src="/assets/fordgologo-transformed.png" class="logo" alt="">
                 <ul class="menu" id="menu">
-                    <li><a href="#">Veiculos</a></li>
-                    <li><a href="#">Aluguel</a></li>
-                    <li><a href="#">Assinatura</a></li>
-                    <li><a href="#">Duvidas</a></li>
+                    <li class="seletor"><a class="campo-clic" href="#">Veiculos</a></li>
+                    <li class="seletor"><a class="campo-clic" href="#">Aluguel</a></li>
+                    <li class="seletor"><a class="campo-clic" href="#">Assinatura</a></li>
+                    <li class="seletor"><a class="campo-clic" href="#">Duvidas</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,31 +29,59 @@
                     <h2> Explore o futuro do aluguel de carros com facilidade e conveniência.<br> Em nosso site, reservar um veículo Ford é rápido, simples e transparente. <br>Com uma ampla seleção de modelos e um serviço ao cliente excepcional, <br>estamos aqui para tornar sua jornada mais suave do que nunca. <br>Faça sua reserva hoje e descubra como é fácil explorar o mundo ao volante de um carro da Ford.</h2>
             </div>
         
-            <div class="container2">
-              <video class="video" src="/assets/ford-brasil-bronco-sport.webm" controls loop>
+            <div id="container">
+              <video src="/assets/ford-brasil-bronco-sport.webm" controls loop>
                   Seu navegador não suporta a tag de vídeo.
                 </video>
-                <!-- <img  src="/assets/Mustang-gt.webp" alt=""> -->
-            <h3>Descubra o futuro do aluguel de carros com a Ford. <br> Com uma ampla variedade de modelos, desde SUVs elegantes até Pik ups robustas, atendemos a todas as suas<br> necessidades de locomoção. Nosso processo de reserva é rápido, seguro e transparente. Não espere mais,<br> junte-se a nós e faça sua reserva hoje para explorar o mundo com facilidade ao volante de um carro da Ford.</h3>
+            <h3 >Descubra o futuro do aluguel de carros com a Ford. Com uma ampla variedade de modelos, desde SUVs elegantes até Pik ups robustas, atendemos a todas as suas necessidades de locomoção. Nosso processo de reserva é rápido, seguro e transparente. Não espere mais, junte-se a nós e faça sua reserva hoje para explorar o mundo com facilidade ao volante de um carro da Ford.</h3>
+            <button type="button" onclick="click">Alugue Já</button>
             </div>
         
         <section>
-            <div class="">
+            <div class="container3">
                 <img src="/assets/fundo.avif" class="img-Marketing">
                 <h4>Ford! Com voçê  onde quer que for</h4>
             </div>
         </section>
     </main>
     
-    <footer class="footer">
-        <nav class="nav-footer">
+    <footer>
+        <nav class="selecao">
               <img class="logo" src="logo-fordgo.webp">
-                <ul class="menu">
-                    <li><a href="#">Duvidas</a></li>
-                    <li><a href="#">Contatos</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Veiculos</a></li>
-                    <li><a href="#">FordPro</a></li>
+                <ul class="menu-footer">
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Contatos</h3>
+                        <a class="a-footer" href="#">@fordgobrasil.com.br</a>
+                        <a class="a-footer" href="#">(11)9 000000-00</a>
+                        <a class="a-footer" href="#">whatsapp</a>
+                        <a class="a-footer" href="#">@FordGo</a>
+                    </li>
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Sobre nós</h3>
+                        <a class="a-footer" href="#">Ford-Foundation</a>
+                        <a class="a-footer" href="#">Carreiras</a>
+                        <a class="a-footer" href="#">Programa de estágio</a>
+                        <a class="a-footer" href="#">Ford-Enter</a>
+                        <a class="a-footer" href="#">Noticias</a>
+                    </li>
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Comprar</h3>
+                        <a class="a-footer" href="#">Monte o seu</a>
+                        <a class="a-footer" href="#">Ofertas</a>
+                        <a class="a-footer" href="#">Concessionárias</a>
+                        <a class="a-footer" href="#">Simule seu Financiamento</a>
+                        <a class="a-footer" href="#">Plano Ford Sempre</a>
+                    </li>
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Serviços</h3>
+                        <a class="a-footer" href="#">Atualização Sync</a>
+                        <a class="a-footer" href="#">Recall </a>
+                        <a class="a-footer" href="#">Assistência de Emergência</a>
+                        <a class="a-footer" href="#">Agende seu Serviço</a>
+                        <a class="a-footer" href="#">Serviço Leva e Traz</a>
+                        <a class="a-footer" href="#">Ford PRO™</a>
+                        <a class="a-footer" href="#">Revisões Ford </a>
+                    </li>
                 </ul>
             </nav>
      </footer>
