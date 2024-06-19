@@ -8,53 +8,59 @@ body {
     width: 100%;
     font-family: arial, helvetica, sans-serif;
     background-color: #e8e8e3;
-    
-   
+
+
     }
 
 .header {
     border-top: 10px solid #00005a;
     border-bottom:  10px solid #00005a;
     }
-    
+
     .logo {
       margin-left: 15px;
       width: 100px;
     }
-   
-    
+
+
     .nav {
       display: flex;
       justify-content: space-between;
+     
       align-items: center;
+      padding: 2rem 1;
+      margin-right: 20px;
       height: 50px;
-      width: 100px;
+      
       background-color: #e8e8e3;
-      
-      
+
+
 
       }
 
       .menu {
         display: flex;
         list-style: none;
-        
+        margin-left: 8rem;
+       
+
+
       }
-      
+
     .seletor {
-        margin-left: 13rem;
+        margin-left: 8rem;
         font-size: 1rem;
-        font-weight: 15px;
+    
       }
-      
+
       .campo-clic {
         color: #272961;
         border-radius: 5px;
-        transition:all ;
+        transition:all 0.1s ;
         text-decoration: none;
-        color: inherit;
+
       }
-      
+
       a:hover {
         padding: 0.1rem 1rem;
         color: #272961;
@@ -66,27 +72,27 @@ body {
       .img-Marketing {
         width: 100%;
       }
-      
+
       .camp1 {
         background-image: url('../assets/Ranger-crop1.jpg');
-        background-size: cover; 
+        background-size: cover;
          background-repeat: no-repeat;
          background-position: center;
-         padding: 5rem 3rem; 
+         padding: 5rem 3rem;
          overflow: hidden;
          height: 50vh;
-         
-         
+
+
         }
         .camp1 h1{
-        
+
         text-decoration: none;
         color: #fff;
         font-size: 50px;
         letter-spacing: 1px;
         margin-left: 0;
         margin-top: 1rem;
-        
+
       }
       .camp1 h2 {
         text-decoration: none;
@@ -101,18 +107,18 @@ body {
       #container {
         display: flex;
         background-color:  #00005a;
-        
-        
+
+
       }
       video {
         margin: auto;
         max-width: 50%;
         max-height: 50%;
-        
-        
+
+
       }
 
-      h3 {
+      .container-h3 {
         display: flex;
         float: right;
         align-items: start;
@@ -127,18 +133,18 @@ body {
       margin-top: 20px;
       backdrop-filter: blur(100px);
       text-align: center;
-      
+
     }
-    
-    button{ 
+
+    button{
      position: absolute;
       width: 200px;
       height: 50px;
       padding: 0 auto;
-      
+
       margin-top: 300px;
-      margin-left: 920px;
-      
+      margin-left: 850px;
+
       background-color: rgb(11, 153, 172);
       border: none;
       border-radius: 15px 15px 15px 15px;
@@ -146,26 +152,26 @@ body {
       color: rgb(255, 250, 250);
       font-size: 20px;
       text-align: center;
-     
+
      }
 
-    
+
 
     #container ::after{
       content: "";
       display: block;
       clear: both;
     }
-    
+
     .container3 {
       margin-top: 8px;
     }
 
       footer {
-        
+
           background-color: #00005a;
-          height: 250px;
-          
+          height: 350px;
+
         }
         .selecao {
           padding: 15px;
@@ -182,14 +188,16 @@ body {
             }
 
             .f-h3 {
-              
+              display: flex;
+              text-align: center;
+              align-items: center;
             }
 
             .menu-footer {
               display: flex;
               justify-content: space-between;
               align-items: center;
-              
+
             }
            .a-footer {
             display: flex;
@@ -199,7 +207,8 @@ body {
             color: inherit;
             font-weight: lighter;
             font-style: normal;
-            
+            margin-top: 19px;
+
           }
 
            .a:hover {
@@ -208,4 +217,3 @@ body {
             background-color: #fff;
             cursor: pointer;
           }
-    
