@@ -13,7 +13,8 @@ body {
     }
 
 .header {
-    border: 10px solid #272961;
+    border-top: 10px solid #00005a;
+    border-bottom:  10px solid #00005a;
     }
     
     .logo {
@@ -27,8 +28,9 @@ body {
       justify-content: space-between;
       align-items: center;
       height: 50px;
-        width: 100px;
-        background-color: #e8e8e3;
+      width: 100px;
+      background-color: #e8e8e3;
+      
       
 
       }
@@ -98,7 +100,7 @@ body {
 
       #container {
         display: flex;
-        background-color:  rgba(39, 41, 97, 1);
+        background-color:  #00005a;
         
         
       }
@@ -129,8 +131,21 @@ body {
     }
     
     button{ 
-      display: inline-block;
-      flex-wrap: wrap;
+     position: absolute;
+      width: 200px;
+      height: 50px;
+      padding: 0 auto;
+      
+      margin-top: 300px;
+      margin-left: 920px;
+      
+      background-color: rgb(11, 153, 172);
+      border: none;
+      border-radius: 15px 15px 15px 15px;
+      cursor: pointer;
+      color: rgb(255, 250, 250);
+      font-size: 20px;
+      text-align: center;
      
      }
 
@@ -148,7 +163,7 @@ body {
 
       footer {
         
-          background-color: #272961;
+          background-color: #00005a;
           height: 250px;
           
         }
