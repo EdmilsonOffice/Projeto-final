@@ -7,15 +7,15 @@ body {
   max-height: 100%;
   max-width: 100%;
   font-family: arial, helvetica, sans-serif;
-  background-color: #e8e8e3;
-
-
+  background-color: rgb(255, 250, 250);
+  margin: 20px;
 }
 
 .header {
-  border-top: 10px solid #00005a;
-  border-bottom: 10px solid #00005a;
-  max-width: 100%;
+  display: flex;
+  border-top: 12px solid #00005a;
+  border-bottom: 12px solid #00005a;
+  width: 100%;
 }
 
 .logo {
@@ -27,25 +27,20 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
   align-items: center;
   padding: 2rem 1;
-  margin-right: 20px;
+  margin-right: 0px;
   height: 50px;
-
+  width: 100%;
   background-color: #e8e8e3;
-
-
-
 }
 
 .menu {
   display: flex;
   list-style: none;
   margin-left: 8rem;
-
-
-
+  margin-right: 20px;
 }
 
 .seletor {
@@ -82,104 +77,94 @@ a:hover {
   padding: 5rem 3rem;
   overflow: hidden;
   height: 50vh;
-
-
 }
 
 .camp1 h1 {
-
   text-decoration: none;
   color: rgb(255, 250, 250);
   font-size: 45px;
   letter-spacing: 1px;
-  margin-left: 0;
-  margin-top: 1rem;
-
+  margin-top: 1rem; 
+  position: absolute; 
+  bottom: 400px; 
+  width: 100%; 
+  height: 50px;
+  text-align: start;
 }
 
 .camp1 h2 {
   text-decoration: none;
   color: rgb(255, 250, 250);
   font-size: 20px;
-  font-weight: lighter;
-  font-style: normal;
-  margin-top: 4rem;
-  margin-left: 3px;
-  line-height: 2rem;
+  line-height: 1.5rem;
   letter-spacing: 2px;
-  
-  
+  position: absolute; 
+  bottom: 150px; 
+  width: 60%; 
+  height: 150px;
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding-top: 15px;
+
 }
 
-#container {
-  display: flex;
-  background-color: #00005a;
-
-
-}
-
-video {
-  margin: auto;
+.video {
   max-width: 50%;
-  max-height: 50%;
-
-
+  height: 100%;
+  display: flex;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #00005a;
+  height: 50%;
+  flex-direction: row;
+}
+
 
 .container-h3 {
-  display: flex;
-  float: right;
-  align-items: start;
-  justify-content: center;
-  max-width: 50%;
-  max-height: 50%;
-  font-size: 23px;
-  line-height: 35px;
-  color: #fff;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 20px;
-  backdrop-filter: blur(100px);
-  text-align: center;
-
-}
-
-button {
-  position: absolute;
-  width: 250px;
-  height: 50px;
-  padding: 0 auto;
-  max-width: 50%;
-
-  margin-top: 300px;
-  margin-left: 850px;
-
-  background-color: rgb(11, 153, 172);
-  border: none;
-  border-radius: 15px 15px 15px 15px;
-  cursor: pointer;
-  color: rgb(255, 250, 250);
-  font-size: 20px;
-  text-align: center;
-
-}
+max-width: 50%;
+color: rgb(255, 250, 250);
+font-size: 22px;
+margin-left: 50px;
 
 
 
-#container ::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .container3 {
+  max-width: 100%;
   margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont3-img {
+  max-width: 100%;
+}
+
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute; 
+  bottom: 40px; 
+  width: 100%; 
+  height: 50px;
+  text-align: center;  
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
 
   background-color: #00005a;
-  height: 255px;
+  height: 263px;
 
 
 }
@@ -237,7 +222,7 @@ footer {
 }
 
 .footer-info {
-  /* background-color: rgb(255, 250, 250); */
+  background-color: rgb(255, 250, 250);
   height: 30px;
   padding-bottom: 10px;
   max-width: 100%;
@@ -245,7 +230,7 @@ footer {
 
 }
 
-/* .icons{
-            background-color: white;
-            border-radius: 12px;
-          } */
+.icons{
+margin-left: 15px;
+margin-top: 4px;
+} 
